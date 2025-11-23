@@ -1,0 +1,102 @@
+body{
+    background-color:#FFF8E7;
+    text-align: center; 
+}
+
+nav {
+    background-color: #9f6e49;
+    padding: 5px;
+    position: relative;
+}
+
+.logo {
+    margin-top: -20px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+
+li{
+    display: inline;
+    margin-right: 50px;
+} 
+
+
+ul{
+    display: block;          
+    text-align: center;      
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #9f6e49;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    font-size: small;
+    margin-top: 50px;
+}
+
+div{
+    align-items: center;
+    margin: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 20px;
+    }
+
+h2{
+    text-align: center;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+}
+
+p
+{
+    text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.content{
+    text-align: justify;
+    padding: 50px;
+}
+
+.box{
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width:170px;
+    height: 200px;
+    background-color:white;
+    padding-bottom: 80px;
+}
+
+.addtocart{
+    background-color: #9f6e49;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline;
+}
+
+.addtocart:hover{
+    background-color: rgba(193, 137, 91, 0.749);
+    color: #000;
+}
+
