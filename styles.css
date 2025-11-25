@@ -229,6 +229,7 @@ form{
 
     nav{
         font-size: smaller;
+        overflow: hidden;
     }
 
     .logo{
@@ -296,6 +297,7 @@ footer{
     width: 200%;
     position:relative;
     right: 50%;
+    overflow: hidden;
 }
 
 .box{
