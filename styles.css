@@ -153,6 +153,9 @@ table, th, td {
     height: auto;
 }
 
+.aboutusheading{
+    margin-left: 350px;
+}
 form{
     background-color:white ;
     padding:30px;
@@ -203,4 +206,133 @@ form{
     text-decoration: none;
     cursor: pointer;
     z-index: 999;
+}
+
+.bgimage {
+    width:102%;
+    height:650px;
+}
+.menu{
+    color: rgb(61, 40, 21);
+}
+
+@media screen and (max-width: 500px) {
+    .bgimage{
+        width: 120%;
+        height: 280px;
+        padding: 0;
+        margin: 0 auto;
+        position: relative;
+        top: -10px;
+        z-index: -1;
+    }
+
+    nav{
+        font-size: smaller;
+    }
+
+    .logo{
+        width: 50px;
+        height: 35px;
+    }
+
+    li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.tagline {
+    position: absolute;
+    top: 80px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.ordernow {
+    font-size: smaller;
+    top: 180px;
+    left: 200px;
+}
+
+.aboutus{
+    margin-left:20px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.aboutimg{
+    width: 50%;
+    margin-top: -35px;
+
+}
+
+ .aboutusheading {
+        font-size: 1.5rem;     /* slightly smaller so it fits */
+        white-space: nowrap;   /* keep it in one line */
+        margin: 10px;
+        position: relative;
+        right:-30%;    /* no left/right shifting */
+    }
+
+    .container{
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+
+.container div{
+    font-size: small;
+    margin: 10px auto;
+    margin-right: auto;
+}
+
+footer{
+    font-size: x-small;
+    width: 200%;
+    position:relative;
+    right: 50%;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    padding-bottom: -80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.menu{
+    font-size: large;
+    margin-bottom: -10px;
+}
+
+.searchbox{
+    width: 100%;
+    padding: 8px;
+    margin: -50px;
+}
+
+.addtocart{
+    padding: 5px 10px;
+    font-size: small;
+    position: relative;
+    bottom: 5px;
+}
+
+form{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: smaller;
+}
+
 }
